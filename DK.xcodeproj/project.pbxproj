@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC8BFFC1EE19F9D000B26C6 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8BFFB1EE19F9D000B26C6 /* ResourcePath.mm */; };
+		8BC8BFFF1EE19F9D000B26C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8BFFE1EE19F9D000B26C6 /* main.cpp */; };
+		8BC8C0061EE19F9D000B26C6 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8C0051EE19F9D000B26C6 /* sansation.ttf */; };
+		8BC8C0121EE1BDA0000B26C6 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0101EE1BDA0000B26C6 /* Sprite.cpp */; };
+		8BC8C0141EE1BE11000B26C6 /* types.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0131EE1BE11000B26C6 /* types.hpp */; };
+		8BC8C0171EE1BEF9000B26C6 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0151EE1BEF9000B26C6 /* Character.cpp */; };
+		8BC8C01A1EE1BF2D000B26C6 /* Furniture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0181EE1BF2D000B26C6 /* Furniture.cpp */; };
+		8BC8C01D1EE1BF8B000B26C6 /* DonkeyKong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C01B1EE1BF8B000B26C6 /* DonkeyKong.cpp */; };
+		8BC8C0201EE1BFC1000B26C6 /* Mario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C01E1EE1BFC1000B26C6 /* Mario.cpp */; };
+		8BC8C0231EE1BFEF000B26C6 /* Peach.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0211EE1BFEF000B26C6 /* Peach.cpp */; };
+		8BC8C0261EE1C03A000B26C6 /* Girder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0241EE1C03A000B26C6 /* Girder.cpp */; };
+		8BC8C0291EE1C1C7000B26C6 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0271EE1C1C7000B26C6 /* Board.cpp */; };
+		8BC8C02C1EE1C1E3000B26C6 /* Barrel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C02A1EE1C1E3000B26C6 /* Barrel.cpp */; };
+		8BC8C02F1EE1C232000B26C6 /* Fire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C02D1EE1C232000B26C6 /* Fire.cpp */; };
+		8BC8C0321EE1C25E000B26C6 /* Ladder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0301EE1C25E000B26C6 /* Ladder.cpp */; };
+		8BC8C0351EE1C271000B26C6 /* Hammer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C0331EE1C271000B26C6 /* Hammer.cpp */; };
+		8BC8C0371EE43C34000B26C6 /* SpriteMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8C0361EE43C34000B26C6 /* SpriteMap.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BC8BFF61EE19F9D000B26C6 /* DK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC8BFFA1EE19F9D000B26C6 /* DK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DK-Info.plist"; sourceTree = "<group>"; };
+		8BC8BFFB1EE19F9D000B26C6 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		8BC8BFFD1EE19F9D000B26C6 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		8BC8BFFE1EE19F9D000B26C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8BC8C0051EE19F9D000B26C6 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		8BC8C0101EE1BDA0000B26C6 /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		8BC8C0111EE1BDA0000B26C6 /* Sprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
+		8BC8C0131EE1BE11000B26C6 /* types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = types.hpp; sourceTree = "<group>"; };
+		8BC8C0151EE1BEF9000B26C6 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		8BC8C0161EE1BEF9000B26C6 /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		8BC8C0181EE1BF2D000B26C6 /* Furniture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Furniture.cpp; sourceTree = "<group>"; };
+		8BC8C0191EE1BF2D000B26C6 /* Furniture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Furniture.hpp; sourceTree = "<group>"; };
+		8BC8C01B1EE1BF8B000B26C6 /* DonkeyKong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DonkeyKong.cpp; sourceTree = "<group>"; };
+		8BC8C01C1EE1BF8B000B26C6 /* DonkeyKong.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DonkeyKong.hpp; sourceTree = "<group>"; };
+		8BC8C01E1EE1BFC1000B26C6 /* Mario.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mario.cpp; sourceTree = "<group>"; };
+		8BC8C01F1EE1BFC1000B26C6 /* Mario.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mario.hpp; sourceTree = "<group>"; };
+		8BC8C0211EE1BFEF000B26C6 /* Peach.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Peach.cpp; sourceTree = "<group>"; };
+		8BC8C0221EE1BFEF000B26C6 /* Peach.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Peach.hpp; sourceTree = "<group>"; };
+		8BC8C0241EE1C03A000B26C6 /* Girder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Girder.cpp; sourceTree = "<group>"; };
+		8BC8C0251EE1C03A000B26C6 /* Girder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Girder.hpp; sourceTree = "<group>"; };
+		8BC8C0271EE1C1C7000B26C6 /* Board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		8BC8C0281EE1C1C7000B26C6 /* Board.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
+		8BC8C02A1EE1C1E3000B26C6 /* Barrel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Barrel.cpp; sourceTree = "<group>"; };
+		8BC8C02B1EE1C1E3000B26C6 /* Barrel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Barrel.hpp; sourceTree = "<group>"; };
+		8BC8C02D1EE1C232000B26C6 /* Fire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fire.cpp; sourceTree = "<group>"; };
+		8BC8C02E1EE1C232000B26C6 /* Fire.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fire.hpp; sourceTree = "<group>"; };
+		8BC8C0301EE1C25E000B26C6 /* Ladder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ladder.cpp; sourceTree = "<group>"; };
+		8BC8C0311EE1C25E000B26C6 /* Ladder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ladder.hpp; sourceTree = "<group>"; };
+		8BC8C0331EE1C271000B26C6 /* Hammer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hammer.cpp; sourceTree = "<group>"; };
+		8BC8C0341EE1C271000B26C6 /* Hammer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hammer.hpp; sourceTree = "<group>"; };
+		8BC8C0361EE43C34000B26C6 /* SpriteMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpriteMap.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC8BFF21EE19F9D000B26C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC8BFEC1EE19F9D000B26C6 = {
+			isa = PBXGroup;
+			children = (
+				8BC8BFF81EE19F9D000B26C6 /* DK */,
+				8BC8BFF71EE19F9D000B26C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC8BFF71EE19F9D000B26C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8BFF61EE19F9D000B26C6 /* DK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC8BFF81EE19F9D000B26C6 /* DK */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8BFFB1EE19F9D000B26C6 /* ResourcePath.mm */,
+				8BC8BFFD1EE19F9D000B26C6 /* ResourcePath.hpp */,
+				8BC8BFFE1EE19F9D000B26C6 /* main.cpp */,
+				8BC8C0131EE1BE11000B26C6 /* types.hpp */,
+				8BC8C0271EE1C1C7000B26C6 /* Board.cpp */,
+				8BC8C0281EE1C1C7000B26C6 /* Board.hpp */,
+				8BC8C0111EE1BDA0000B26C6 /* Sprite.hpp */,
+				8BC8C0101EE1BDA0000B26C6 /* Sprite.cpp */,
+				8BC8C0161EE1BEF9000B26C6 /* Character.hpp */,
+				8BC8C0151EE1BEF9000B26C6 /* Character.cpp */,
+				8BC8C0191EE1BF2D000B26C6 /* Furniture.hpp */,
+				8BC8C0181EE1BF2D000B26C6 /* Furniture.cpp */,
+				8BC8C01F1EE1BFC1000B26C6 /* Mario.hpp */,
+				8BC8C01E1EE1BFC1000B26C6 /* Mario.cpp */,
+				8BC8C0221EE1BFEF000B26C6 /* Peach.hpp */,
+				8BC8C0211EE1BFEF000B26C6 /* Peach.cpp */,
+				8BC8C01C1EE1BF8B000B26C6 /* DonkeyKong.hpp */,
+				8BC8C01B1EE1BF8B000B26C6 /* DonkeyKong.cpp */,
+				8BC8C02B1EE1C1E3000B26C6 /* Barrel.hpp */,
+				8BC8C02A1EE1C1E3000B26C6 /* Barrel.cpp */,
+				8BC8C02E1EE1C232000B26C6 /* Fire.hpp */,
+				8BC8C02D1EE1C232000B26C6 /* Fire.cpp */,
+				8BC8C0251EE1C03A000B26C6 /* Girder.hpp */,
+				8BC8C0241EE1C03A000B26C6 /* Girder.cpp */,
+				8BC8C0301EE1C25E000B26C6 /* Ladder.cpp */,
+				8BC8C0311EE1C25E000B26C6 /* Ladder.hpp */,
+				8BC8C0331EE1C271000B26C6 /* Hammer.cpp */,
+				8BC8C0341EE1C271000B26C6 /* Hammer.hpp */,
+				8BC8C0001EE19F9D000B26C6 /* Resources */,
+				8BC8BFF91EE19F9D000B26C6 /* Supporting Files */,
+			);
+			path = DK;
+			sourceTree = "<group>";
+		};
+		8BC8BFF91EE19F9D000B26C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8BFFA1EE19F9D000B26C6 /* DK-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC8C0001EE19F9D000B26C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8C0051EE19F9D000B26C6 /* sansation.ttf */,
+				8BC8C0361EE43C34000B26C6 /* SpriteMap.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC8BFF51EE19F9D000B26C6 /* DK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC8C00B1EE19F9D000B26C6 /* Build configuration list for PBXNativeTarget "DK" */;
+			buildPhases = (
+				8BC8BFF11EE19F9D000B26C6 /* Sources */,
+				8BC8BFF21EE19F9D000B26C6 /* Frameworks */,
+				8BC8BFF31EE19F9D000B26C6 /* Resources */,
+				8BC8BFF41EE19F9D000B26C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DK;
+			productName = DK;
+			productReference = 8BC8BFF61EE19F9D000B26C6 /* DK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC8BFED1EE19F9D000B26C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Joshua Rubin";
+				TargetAttributes = {
+					8BC8BFF51EE19F9D000B26C6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8BC8BFF01EE19F9D000B26C6 /* Build configuration list for PBXProject "DK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BC8BFEC1EE19F9D000B26C6;
+			productRefGroup = 8BC8BFF71EE19F9D000B26C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC8BFF51EE19F9D000B26C6 /* DK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC8BFF31EE19F9D000B26C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC8C0061EE19F9D000B26C6 /* sansation.ttf in Resources */,
+				8BC8C0371EE43C34000B26C6 /* SpriteMap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BC8BFF41EE19F9D000B26C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC8BFF11EE19F9D000B26C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC8C0261EE1C03A000B26C6 /* Girder.cpp in Sources */,
+				8BC8BFFF1EE19F9D000B26C6 /* main.cpp in Sources */,
+				8BC8BFFC1EE19F9D000B26C6 /* ResourcePath.mm in Sources */,
+				8BC8C02C1EE1C1E3000B26C6 /* Barrel.cpp in Sources */,
+				8BC8C0201EE1BFC1000B26C6 /* Mario.cpp in Sources */,
+				8BC8C0231EE1BFEF000B26C6 /* Peach.cpp in Sources */,
+				8BC8C01A1EE1BF2D000B26C6 /* Furniture.cpp in Sources */,
+				8BC8C01D1EE1BF8B000B26C6 /* DonkeyKong.cpp in Sources */,
+				8BC8C0291EE1C1C7000B26C6 /* Board.cpp in Sources */,
+				8BC8C0321EE1C25E000B26C6 /* Ladder.cpp in Sources */,
+				8BC8C0121EE1BDA0000B26C6 /* Sprite.cpp in Sources */,
+				8BC8C0351EE1C271000B26C6 /* Hammer.cpp in Sources */,
+				8BC8C0171EE1BEF9000B26C6 /* Character.cpp in Sources */,
+				8BC8C02F1EE1C232000B26C6 /* Fire.cpp in Sources */,
+				8BC8C0141EE1BE11000B26C6 /* types.hpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BC8C0091EE19F9D000B26C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		8BC8C00A1EE19F9D000B26C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		8BC8C00C1EE19F9D000B26C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DK/DK-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BC8C00D1EE19F9D000B26C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DK/DK-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC8BFF01EE19F9D000B26C6 /* Build configuration list for PBXProject "DK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC8C0091EE19F9D000B26C6 /* Debug */,
+				8BC8C00A1EE19F9D000B26C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC8C00B1EE19F9D000B26C6 /* Build configuration list for PBXNativeTarget "DK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC8C00C1EE19F9D000B26C6 /* Debug */,
+				8BC8C00D1EE19F9D000B26C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC8BFED1EE19F9D000B26C6 /* Project object */;
+}
